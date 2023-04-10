@@ -1,0 +1,606 @@
+
+
+.event-img {
+    position: relative
+}
+
+.event-img a:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(146, 197, 146, 0.904);
+    content: "";
+    opacity: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.single-event:hover .event-img a:after {
+    opacity: 1
+}
+
+.single-food-type:hover .food-img:after {
+    opacity: 1
+}
+
+.food-content:hover a {
+    color: rgba(144, 238, 144, 0.904)
+}
+
+.single-event h4 a {
+    font-size: 20px;
+    color: #303030;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.single-event h4 {
+    margin-top: 17px;
+}
+
+.single-event:hover h4 a {
+    color: rgba(144, 238, 144, 0.904)
+}
+
+/*----------------------------------------*/
+
+/*  2. About Area
+/*----------------------------------------*/
+
+.about-area {
+    position: relative;
+}
+
+.about-content {
+    margin-left: 40px
+}
+
+.about-image {
+    background-image: url("img/about/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40%;
+}
+
+.about-image.three {
+    background-image: url("img/slider/slider1.jpg");
+}
+
+.mc-form {
+    position: relative;
+}
+
+#mc-embedded-subscribe {
+    border: 1px solid rgba(144, 238, 144, 0.904);
+    height: 42px;
+    line-height: 25px;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#mc-embedded-subscribe.default-btn:hover {
+    border: 1px solid rgba(144, 238, 144, 0.904);
+    background: transparent;
+    color: rgba(144, 238, 144, 0.904);
+}
+
+#mc-embedded-subscribe-form {
+    padding: 10px 60px 0
+}
+
+.about-area .section-title h2 {
+    padding-bottom: 3px;
+}
+
+.about-area.two:before {
+    background: none
+}
+
+.about-img {
+    margin: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.two .about-content,
+.two .about-content .section-title {
+    display: inherit
+}
+
+.about-wrapper {
+    box-shadow: 0 0 4px 4px #ececec;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.two .about-content {
+    margin-left: 10px;
+}
+
+.owl-dot {
+    background: #e1e1e1 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 14px;
+    margin: 0 5px;
+    width: 14px;
+}
+
+.owl-dot.active {
+    background: rgba(144, 238, 144, 0.904) none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    top: 1px;
+    position: relative;
+}
+
+.owl-controls {
+    bottom: -72px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.menu-owl.owl-carousel .owl-controls {
+    bottom: -62px;
+}
+
+.about-content .default-btn::before,
+.single-table .default-btn::before,
+#mc_embed_signup_scroll.default-btn::before {
+    border: 1px solid rgba(144, 238, 144, 0.904)
+}
+
+#mc_embed_signup_scroll.default-btn:hover span {
+    color: rgba(144, 238, 144, 0.904)
+}
+
+/*------------- ---------------------------*/
+
+/*  3. Menu Area
+/*----------------------------------------*/
+
+.section-tab .section-tab-menu ul {
+    background: #fffcf8 none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.menu-content .section-title ul {
+    margin: 0 0 45px;
+}
+
+.section-tab-item {
+    display: none;
+}
+
+.section-tab-item.active {
+    display: block;
+}
+
+.section-tab .section-tab-menu ul li {
+    display: inline-block;
+    background: #FFFCF8;
+    margin-right: 5px;
+    padding-right: 20px;
+    padding: 4px 26px;
+    border-radius: 20px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.section-tab .section-tab-menu ul li:last-child {
+    margin-right: 0px;
+}
+
+.section-tab .section-tab-menu ul li.active,
+.section-tab .section-tab-menu ul li:hover {
+    background: rgba(144, 238, 144, 0.904);
+}
+
+.section-tab .section-tab-menu ul li.active a,
+.section-tab .section-tab-menu ul li:hover a {
+    color: #fff;
+}
+
+.section-tab .section-tab-menu ul li a {
+    color: black;
+    display: block;
+    font-family: "Playball", cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.menu-area .section-title h2 {
+    padding-bottom: 10px;
+}
+
+/*----------------------------------------*/
+
+/*  4. Table Area
+/*----------------------------------------*/
+
+.single-table {
+    background: #FFFCF8;
+    padding: 46px 55px 25px;
+    margin: 13px 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.single-table .default-btn {
+    margin-top: 28px;
+}
+
+.single-table:hover,
+.single-table.active {
+    box-shadow: 0 0 12px 3px #ddd;
+}
+
+.table-area .section-title {
+    margin-bottom: 40px
+}
+
+.section-title h5 {
+    color: #cf1818;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Playball', cursive;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.table-head h3,
+.table-body h3 {
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Playball', cursive;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+    font-weight: 400;
+    position: relative;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.table-body h3 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.table-body h3 span {
+    color: black;
+    margin-left: 10px;
+}
+
+.table-head h3::after,
+.table-body ul::after {
+    background: #e1e1e1 none repeat scroll 0 0;
+    bottom: -16px;
+    content: "";
+    height: 1px;
+    left: 15px;
+    position: absolute;
+    width: 175px;
+}
+
+.table-body ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.table-body ul li {
+    color: #303030;
+    cursor: pointer;
+    display: block;
+    font-family: "Playball", cursive;
+    font-size: 20px;
+    padding: 8px 0;
+    transition: all 0.5s ease 0s;
+    text-align: left;
+}
+
+.table-body ul li span {
+    float: right;
+}
+
+.table-body ul li:hover,
+.table-body ul li.active {
+    color: rgba(144, 238, 144, 0.904);
+}
+
+/*----------------------------------------*/
+
+/*  5. Testimonial Area
+/*----------------------------------------*/
+
+.testimonial-area.two .video-area,
+.testimonial-area.two .testimonial-wrapper {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.video-bg img {
+    width: 100%;
+}
+
+.video-bg::after {
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.testimonial-area.two .video-area {
+    position: relative
+}
+
+.video-bg {
+    position: relative;
+    margin-right: 35px;
+}
+
+.video-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    margin-top: -15px;
+    right: 0;
+    text-align: center;
+}
+
+.video-icon i {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #303030;
+    font-size: 15px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 40px;
+}
+
+.video-icon:hover i {
+    background: rgba(144, 238, 144, 0.904);
+    color: #fff
+}
+
+.video-icon:hover h3 {
+    color: rgba(144, 238, 144, 0.904)
+}
+
+.video-icon h3 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #fefefe;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.video-popup:focus {
+    border-color: transparent
+}
+
+.testimonial-content>img {
+    border: 1px solid #ebebeb;
+    margin-bottom: 22px;
+}
+
+.video-bg,
+.testimonial-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+}
+
+.two .video-bg,
+.two .testimonial-wrapper {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.video-bg a img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+}
+
+.testimonial-content p {
+    margin-bottom: 25px
+}
+
+.testimonial-content h4 {
+    font-size: 18px;
+    color: #303030;
+    font-family: 'Playball', cursive;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.testimonial-content h5 {
+    font-size: 12px;
+    color: #606060;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.testimonial-owl.owl-carousel .owl-item img {
+    width: auto;
+    display: inline-block;
+}
+
+.testimonial-owl.owl-carousel .owl-controls {
+    bottom: -50px;
+}
+
+.testimonial-content {
+    position: relative;
+}
+
+.testimonial-content:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background: url(img/testimonia/quote.png);
+    width: 34px;
+    height: 30px;
+}
+
+/*----------------------------------------*/
+
+/*  6. Package Area
+/*----------------------------------------*/
+
+.package-img {
+    margin-top: -40px
+}
+
+.package-img.two {
+    margin-top: -90px
+}
+
+.package-content h4 {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.904);
+    font-family: 'Playball', cursive;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.package-content h2 {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.904);
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+.package-content h3 {
+    font-size: 36px;
+    color: rgba(10, 12, 10, 0.904);
+    font-family: 'Playball', cursive;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.two .package-content {
+    padding-left: 70px;
+}
+
+/*----------------------------------------*/
+
+/*  7. Food Area
+/*----------------------------------------*/
+
+.food-wrapper {
+    box-shadow: 0 0 16px 0px rgba(135, 129, 189, 0.49);
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.food-img img {
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.food-img img:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(144, 238, 144, 0.904);
+    content: "";
+    opacity: 0;
+    z-index: 9;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.food-content h4 {
+    font-size: 28px;
+    color: #303030;
+    font-family: 'Playball', cursive;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 20px;
+}
+
+/*----------------------------------------*/
+
+/*  8. Footer Area
+/*----------------------------------------*/
+
+
+.footer-bottom p,
+.footer-bottom a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 52px;
+    margin-bottom: 0;
+    -webkit-transition: all 0.5s ease 0;
+    -o-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline
+}
+
+/*----------------------------------------*/
+
+
